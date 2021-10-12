@@ -1,0 +1,57 @@
+body{
+    display: flex;
+    min-height: 95vh;
+    justify-content: center;
+    align-items: center;
+    background-color:darkslategray;
+}
+.container{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+    text-transform: capitalize;
+    width: 600px;
+    height: 250px;
+    padding-top: 30px;
+    background-color: #fefefe;
+    border: 2px solid gold;
+    box-shadow: 30px 20px 60px dodgerblue;
+    border-radius: 10px;
+}
+#sendBtn{
+    padding: 10px;
+    text-transform: uppercase;
+    border: 2px solid #fefefe;
+    border-radius: 4px;
+    color: #fefefe;
+    background: rgba(0, 0,0, 0.56);
+    cursor: pointer;
+    outline: none;
+}
+#sendBtn:hover{
+    background: rgb(0, 0, 0);
+}
+#messageIn{
+    text-align: center;
+    border: 2px solid dodgerblue;
+    border-radius: 5px;
+    font-size: 14px;
+    padding: 8px;
+}
+input[type=text]:focus{
+    box-shadow:  0 0 10px gold;
+}
+input::placeholder{
+    text-transform: capitalize;
+    font-family: monospace;
+    color:dodgerblue;
+    font-size: 15px;
+
+}
+#messageOut{
+    font-size: 20px;
+    font-family: monospace;
+    color: dodgerblue;
+}
+.letterBox{
+    font-size: 34px;
+}
